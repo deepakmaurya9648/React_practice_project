@@ -43,7 +43,7 @@ class Calculator extends Component {
     render() {
         return (
             <div className="Calculator">
-                <h1 style={{textAlign:'center'}}>Calculator</h1>
+                
                 <Display data={this.state.data} />
                 <Keypad>
                 <Button onClick={this.handleClick} label="C" value="clear" />
